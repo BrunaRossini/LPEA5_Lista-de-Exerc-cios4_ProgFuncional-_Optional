@@ -1,7 +1,7 @@
 package lista4.exercicio1b;
 
 import java.util.Optional;
-import java.util.OptionalInt;
+
 
 public class Main {
 
