@@ -7,7 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		String teste = " ";
-		System.out.println("Teste com orElse: " + verificarString(teste).orElse(22));
+		System.out.println("Teste com orElse valor vazio: " + verificarString(teste).orElse(22));
+		System.out.println("Teste com orElseGet valor vazio: " + verificarString(teste).orElseGet(() -> 22));
 
 	}
 
